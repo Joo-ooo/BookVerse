@@ -1,0 +1,26 @@
+[
+    {
+        "Module ID": 1,
+        "Module Code": "INF1001",
+        "Module Name": "Introduction to Computing",
+        "Module Year": "Year 1"
+    },
+    {
+        "Module ID": 2,
+        "Module Code": "INF1002",
+        "Module Name": "Programming Fundamentals",
+        "Module Year": "Year 1"
+    },
+    {
+        "Module ID": 3,
+        "Module Code": "INF2001",
+        "Module Name": "Introduction to Software Engineering",
+        "Module Year": "Year 2"
+    },
+    {
+        "Module ID": 4,
+        "Module Code": "INF2002",
+        "Module Name": "Human Computer Interaction",
+        "Module Year": "Year 2"
+    }
+]

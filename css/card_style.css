@@ -1,0 +1,52 @@
+.card-img-top {
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
+}
+.card_container{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.card{
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 10%);
+}
+.card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translateY(-0.0625rem);
+    z-index: 1;
+}
+
+.card-category{
+    font-size: 12px;
+    font-style: italic;
+}
+.card-price{
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: black;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+}
+/* Tailor Forlanding*/
+.modulelanding.card:hover{
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 10%);
+    transform: none;
+    z-index: 1;
+}
+.modulelanding.card a{
+    color: blue;
+}
+.modulelanding.card a:hover{
+    color:indianred;
+}

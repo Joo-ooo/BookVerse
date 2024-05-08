@@ -1,0 +1,53 @@
+.box{
+    border-radius:  10px 140px 30px 140px;
+    background-image: linear-gradient(180deg, lightsalmon,lightpink);
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    width: 13cm;
+    height: 8cm;
+    padding: 22px 32px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+/* for logout button */
+.logout-button {
+  font-size: 16px;
+  font-weight: 200;
+  font: italic 1.2em "Fira Sans", serif;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.logout-button:after {
+  content: "";
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.logout-button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .logout-button {
+    padding: 13px 50px 13px;
+  }
+}
